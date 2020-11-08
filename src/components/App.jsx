@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { connect } from 'react-redux';
 import PropTypes from "prop-types";
 import Home from "./pages/Home";
-import SignIn from "./pages/SignIn";
-import SignUp from "./pages/SignUp";
-import Admin from './pages/Admin';
+// import SignIn from "./pages/SignIn";
+// import SignUp from "./pages/SignUp";
+// import Admin from './pages/Admin';
 
 
 
@@ -17,9 +17,9 @@ class App extends React.Component {
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/signin" component={SignIn} />
+          {/* <Route exact path="/signin" component={SignIn} />
           <Route exact path="/signup" component={SignUp} />
-          <Route exact path="/admin" component={Admin}/>
+          <Route exact path="/admin" component={Admin}/> */}
         </Switch>
       </Router>
       </div>
